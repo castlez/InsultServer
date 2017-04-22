@@ -1,0 +1,11 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# retrieve an insult (randomly)
+GET     /insultme                    controllers.Application.randomInsult
+
+# post a new insult
+POST     /add/insult                controllers.Application.saveInsult
+
+    
